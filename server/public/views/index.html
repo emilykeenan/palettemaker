@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Blocks</title>
+  <link rel="stylesheet" href="/vendor/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <script type="text/javascript" src="/vendor/angular.min.js"></script>
+  <script type="text/javascript" src="/vendor/angular-route.min.js"></script>
+  <script type="text/javascript" src="/scripts/clientapp.js"></script>
+  <script type="text/javascript" src="/scripts/controllers/paletteController.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="PaletteController" class="container">
+  <header ng-include="'/views/templates/header.html'"></header>
+
+  <main ng-view></main>
+</body>
+</html>
